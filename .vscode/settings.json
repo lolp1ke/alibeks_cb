@@ -1,0 +1,13 @@
+{
+  "rust-analyzer.rustfmt.extraArgs": [
+    "+nightly"
+  ],
+  "rust-analyzer.check.targets": [
+    "aarch64-apple-darwin",
+    "x86_64-unknown-linux-musl",
+  ],
+  "rust-analyzer.check.allTargets": true,
+  "rust-analyzer.cargo.allTargets": true,
+  "rust-analyzer.cargo.target": "aarch64-apple-darwin",
+  // "rust-analyzer.cargo.target": "x86_64-unknown-linux-musl",
+}

@@ -1,0 +1,53 @@
+title = "Alibek's Central Bank"
+description = ""
+
+author = "Alibek"
+
+base_url = "https://alibeks-cb.minecraft.yomuyomu.org"
+
+taxonomies = [{ name = "tags", feed = true }]
+
+compile_sass = false
+
+build_search_index = true
+default_language = "en"
+
+theme = "zap"
+
+[search]
+index_format = "fuse_javascript"
+
+[markdown]
+
+[markdown.highlighting]
+# theme = "catppuccin-mocha"
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+[extra]
+# Put all your custom variables here
+inline_icons = true
+icon_path = "static/icons/"
+icons = ["home", "chat", "idea", "search"]
+
+favicon = "/favicon.ico"
+
+image_resizing_disabled = false
+image_format = "auto"
+image_quality = 90
+images_default_size = 1024
+images_sizes = [512, 1024, 2048]
+
+thumbnail_quality = 70
+thumbnail_default_size = 256
+thumbnail_sizes = [128, 256]
+
+keywords = ["blog", "AMM"]
+menu_links = [
+  { name = "Home", url = "$BASE_URL/", icon = "home.svg" },
+  { name = "Blog", url = "$BASE_URL/blog/", icon = "chat.svg" },
+  { name = "Tags", url = "$BASE_URL/tags/", icon = "idea.svg" },
+  { name = "Search", url = "$BASE_URL/search/", icon = "search.svg" },
+]
+
+# title = "Alibek's Central Bank"
